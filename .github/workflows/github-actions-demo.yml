@@ -31,9 +31,9 @@ jobs:
           cd progetto_frontend
           nvm install
           nvm use
-        - name: build
-          working-directory: progetto_frontend
-          run: |
+      - name: build
+        working-directory: progetto_frontend
+        run: |
           npm install
           npm run build
       - name: Upload artifact
