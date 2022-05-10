@@ -1,5 +1,11 @@
 name: GitHub Actions Demo
-on: [push]
+on: 
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - v**
+    workflow-call:
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
@@ -15,7 +21,8 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - name: nvm setup
+      - name: install nvm setup
+        working-directory: progetto_frontend
         run: |
           curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
           export NVM_DIR="$HOME/.nvm"
@@ -24,6 +31,9 @@ jobs:
           cd progetto_frontend
           nvm install
           nvm use
+        - name: build
+          working-directory: progetto_frontend
+          run: |
           npm install
           npm run build
       - name: Upload artifact
