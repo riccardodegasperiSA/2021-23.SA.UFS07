@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/compare/v1.5.0...v1.6.0) (2022-05-10)
+
+
+### Features
+
+* add secrets to workflow ([f49e207](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/commit/f49e2079ac0264638e63ce3b5282d59e97031e36))
+
 ## [1.5.0](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/compare/v1.3.2...v1.5.0) (2022-05-10)
 
 
