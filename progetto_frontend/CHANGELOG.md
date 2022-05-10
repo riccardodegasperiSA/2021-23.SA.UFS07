@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/compare/v1.3.2...v1.3.0) (2022-05-10)
+
+
+### Features
+
+* add standard version control ([b794d2e](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/commit/b794d2ef138a5c59b2e8e7f0450f532042405887))
+
 ## [1.1.0](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/compare/v1.3.2...v1.1.0) (2022-05-10)
 
 
