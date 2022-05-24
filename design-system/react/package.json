@@ -1,14 +1,21 @@
 {
-  "name": "react",
+  "name": "test-1-react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "files": [
+    "atoms/**",
+    "molecules/**",
+    "templates/**",
+    "umd/**",
+    "CHANGELOG.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "cross-env BABEL_ENV=production babel src --copy-files --out-dir dist",
-    "build-umd": "cross-env BABEL_ENV=production-umd babel src --copy-files --out-dir dist/umd"
+    "build-umd": "cross-env BABEL_ENV=production-umd babel src --copy-files --out-dir dist/umd",
+    "release": "standard-version -t ''"
   },
   "keywords": [],
   "author": "",
@@ -47,5 +54,8 @@
     "chromatic": "^6.5.4",
     "core-js": "^3.22.5",
     "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "standard-version": "^9.5.0"
   }
 }
