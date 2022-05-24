@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.6](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/compare/ds1.2.1...ds1.0.6) (2022-05-24)
+
+
+### Bug Fixes
+
+* npm package version ([1100e32](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/commit/1100e32a738bb8b0427e8f047c6291a69f673080))
+
 ### [1.2.1](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/compare/ds1.2.0...ds1.2.1) (2022-05-24)
 
 
