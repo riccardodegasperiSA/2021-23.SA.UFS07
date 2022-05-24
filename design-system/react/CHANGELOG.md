@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/compare/1.0.0...1.1.0) (2022-05-24)
+
+
+### Features
+
+* separated deploy.yml into deploy-ds.yml ([11e22fb](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/commit/11e22fbe8b3b9d648e8a52faccef1ffadac1e796))
+* use published npm package ([59e9f90](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/commit/59e9f902c8e97d55029d1e368c0ae43127ebe1df))
+
+
+### Bug Fixes
+
+* edit typo ([4d99e2a](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/commit/4d99e2afbf8fda644f6f8a98c29db541725be9d8))
+
 ## 1.0.0 (2022-05-20)
 
 
