@@ -12,4 +12,4 @@
 
 # Public URL
 
-https://voiceless-silk.surge.sh/
+http://judicious-friends.surge.sh/
