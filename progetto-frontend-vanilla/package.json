@@ -28,6 +28,8 @@
     "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
+    "degasperi-react-test": "^1.0.6",
+    "prop-types": "^15.8.1",
     "react-dom": "^18.1.0"
   }
 }
