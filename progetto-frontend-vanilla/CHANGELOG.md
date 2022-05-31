@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.10.1](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/compare/v1.10.0...v1.10.1) (2022-05-31)
+
+
+### Bug Fixes
+
+* echo variables ([18389a7](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/commit/18389a7e796cf2c8ee552a547eaa2d3e9f9e3634))
+
 ## 1.10.0 (2022-05-31)
 
 
