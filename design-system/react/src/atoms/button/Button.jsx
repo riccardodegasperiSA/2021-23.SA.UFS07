@@ -16,17 +16,10 @@ export const Button = ({ label, onClick, type }) => {
 };
 
 Button.propTypes = {
-  /**
-   * Button contents
-   */
   label: PropTypes.string.isRequired,
-  /**
-   * Optional click handler
-   */
+
   onClick: PropTypes.func,
-  /**
-   * Button type
-   */
+
   type: PropTypes.string,
 };
 
