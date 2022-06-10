@@ -11,18 +11,22 @@ export const Input = ({ isValid, onData, placeholder, type }) => {
       onData(inputEvent.target.value);
     }
   }
+  const message = isValid ? "valid" : "invalid";
   return (
-    <input
-      onInput={onInput}
-      placeholder={placeholder}
-      type={type}
-    >
-    </input>
+    <>
+      <input
+        onInput={onInput}
+        placeholder={placeholder}
+        type={type}
+      >
+      </input>
+      {isValid === undefined ? null : message}
+    </>
   );
 };
 
 Input.propTypes = {
-  isValid: PropTypes.bool.isRequired,
+  isValid: PropTypes.bool,
   onData: PropTypes.func,
 
   placeholder: PropTypes.string,
