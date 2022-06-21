@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/compare/ds1.1.1...ds1.2.0) (2022-06-21)
+
+
+### Features
+
+* updatated package version ([dcda3c0](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/commit/dcda3c031c9292d03f6c6c52fd886874883f0d80))
+
 ### [1.1.1](https://github.com/riccardodegasperiSA/2021-23.SA.UFS07/compare/ds1.1.0...ds1.1.1) (2022-06-10)
 
 ## 1.1.0 (2022-06-10)
